@@ -1,0 +1,33 @@
+p {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: rgb(228, 187, 193);
+  }
+
+/*div{
+    border: 1px solid black;
+    margin: auto;
+    background-color: lightgreen;
+}
+*/
+
+.column {
+    border: 1px solid black;
+    float: left;
+    width: 25%;
+    background-color: lightblue;
+    /*padding: 10px;*/
+}
+.column:hover{
+    background-color: lightgray;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
