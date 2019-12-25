@@ -6,6 +6,14 @@ p {
     margin-left: 80px;
     background-color: rgb(228, 187, 193);
   }
+  .story {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: rgb(210, 228, 187);
+  }
 
 /*div{
     border: 1px solid black;
@@ -13,17 +21,27 @@ p {
     background-color: lightgreen;
 }
 */
-
-.column {
+h2{
+    text-align: center;
+}
+.choice {
     border: 1px solid black;
     float: left;
     width: 25%;
     background-color: lightblue;
     /*padding: 10px;*/
 }
-.column:hover{
-    background-color: lightgray;
+.choice:hover{
+    background-color: rgb(85, 143, 252);
 }
+
+/*
+#cssTable .choice 
+{
+    text-align: center; 
+    vertical-align: middle;
+}
+*/
   
   /* Clear floats after the columns */
 .row:after {
